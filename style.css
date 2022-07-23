@@ -80,6 +80,7 @@ button:hover {
 
 .wave-container{
     margin: 28% 0 0 0;
+    overflow: hidden;
 }
 
 @keyframes animate{
@@ -225,8 +226,8 @@ h2{
 }
 
 .s4 {
-    background-color: #8EC5FC;
-    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    background-color: #52ACFF;
+background-image: linear-gradient(180deg, #52ACFF 25%, #FFE32C 100%);
 
 }
 
@@ -246,6 +247,7 @@ h2{
     margin-bottom: 2%;
     font-size: 15px;
 }
+
 /* Media queries */
 
 
@@ -382,8 +384,8 @@ h2{
 }
 
 .box:hover{
-    transform: translateY(0) scale(1.2);
-    background-color: rgb(61, 189, 167);
+    transform: translateY(0) scale(1.1);
+   
     color: #fafafa;
 }
 
